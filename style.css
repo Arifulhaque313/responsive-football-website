@@ -39,7 +39,7 @@ nav ul li a {
 
 .menu-bar {
   color: white;
-  font-size: 19px;
+  font-size: 24px;
   display: none;
 }
 
@@ -277,7 +277,7 @@ footer {
   }
 
   .container {
-    width: 90%;
+    width: 85%;
   }
   .tops {
     flex-direction: column;
@@ -312,7 +312,7 @@ footer {
     margin: 0px;
   }
   .highlight h1 {
-    font-size: 45px;
+    font-size: 38px;
     padding: 10px 0px;
   }
 }
