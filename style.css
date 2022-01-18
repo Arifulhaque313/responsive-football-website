@@ -231,12 +231,13 @@ footer {
   }
 
   .container {
+    width: 90%;
   }
   .tops {
     flex-direction: column;
   }
   .top h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .top {
     width: 100%;
@@ -266,6 +267,7 @@ footer {
   }
 }
 
+/* for 680px  */
 @media only screen and (max-width: 680px) {
   .menu-bar {
     display: block;
@@ -275,12 +277,14 @@ footer {
   }
 
   .container {
+    width: 100%;
   }
   .tops {
     flex-direction: column;
+    padding: 0;
   }
   .top h1 {
-    font-size: 50px;
+    font-size: 38px;
   }
   .top {
     width: 100%;
