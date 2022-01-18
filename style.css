@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* first section start */
+
+header {
+  background-color: #2d25a0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-bar {
+  color: white;
+  font-size: 19px;
+  display: none;
+}
+
+/* nav ul li a:hover {
+  background-color: yellowgreen;
+} */
+
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login button {
+  background-color: #e02c6d;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  color: white;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+.btn-icon {
+  margin-right: 10px;
+}
+/* navbar end */
+
+/* top section start */
+
+.tops {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px;
+  padding: 0px 30px;
+}
+.top {
+  width: 50%;
+}
+
+.top h1 {
+  font-size: 64px;
+  color: white;
+  line-height: 80px;
+  font-weight: bolder;
+}
+
+.top img {
+  width: 100%;
+}
+.top-button {
+  margin: 30px 0px;
+}
+.top-button button {
+  background-color: #e02c6d;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  overflow: hidden;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  display: flex;
+  align-items: center;
+}
+
+.top-button button .arrow {
+  margin-left: 15px;
+}
+
+.container :hover .top {
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+}
+
+/* top section end */
+
+/* player section start  */
+
+.player-section {
+  background-color: gainsboro;
+}
+.container-2 {
+  width: 75%;
+  margin: auto;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 50px;
+}
+
+.player {
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  background-color: white;
+}
+
+.player img {
+  width: 100%;
+}
+
+.player h3 {
+  padding: 10px 0px;
+}
+.player p {
+  padding-bottom: 20px;
+}
+
+/* player section end */
+.section-highlights {
+  background-color: gainsboro;
+}
+.highlights {
+  display: flex;
+  align-items: center;
+  margin: 40px 0px;
+  padding: 0px 30px;
+}
+
+.highlight {
+  width: 50%;
+}
+
+.highlight img {
+  width: 100%;
+}
+.highlight h1 {
+  font-size: 50px;
+}
+
+.highlight p {
+  font-size: 17px;
+  width: 80%;
+}
+
+.highlight-1 {
+  margin: 30px;
+}
+
+footer {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-section {
+  width: 485px;
+  margin: 50px 0px;
+}
+
+.footer-section img {
+  width: 100%;
+}
+
+.footer-section p {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.f-icon {
+  background-color: #969bab;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 20px;
+}
+
+.f-icon-2 {
+  background-color: #969bab;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 20px;
+}
+
+/* responsive */
+@media only screen and (max-width: 991px) {
+  .menu-bar {
+    display: block;
+  }
+  nav ul li a {
+    display: none;
+  }
+
+  .container {
+  }
+  .tops {
+    flex-direction: column;
+  }
+  .top h1 {
+    font-size: 60px;
+  }
+  .top {
+    width: 100%;
+  }
+
+  .top img {
+    margin-top: 50px;
+  }
+
+  .players {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+
+  .highlights {
+    flex-direction: column;
+  }
+  .highlight {
+    width: 100%;
+  }
+  .highlight-1 {
+    margin: 0px;
+  }
+  .highlight h1 {
+    font-size: 45px;
+    padding: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .menu-bar {
+    display: block;
+  }
+  nav ul li a {
+    display: none;
+  }
+
+  .container {
+  }
+  .tops {
+    flex-direction: column;
+  }
+  .top h1 {
+    font-size: 50px;
+  }
+  .top {
+    width: 100%;
+  }
+
+  .top img {
+    margin-top: 50px;
+  }
+
+  .players {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .highlights {
+    flex-direction: column;
+  }
+  .highlight {
+    width: 100%;
+  }
+  .highlight-1 {
+    margin: 0px;
+  }
+  .highlight h1 {
+    font-size: 45px;
+    padding: 10px 0px;
+  }
+}
